@@ -1,0 +1,14 @@
+
+
+name: crowleer
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  crowleer:
+    install-dep: npm install
+
+    build: ng build --prod
+      
